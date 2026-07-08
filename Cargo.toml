@@ -1,0 +1,54 @@
+[package]
+name = "ponte"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89.0"
+description = "Bridges LangChain OpenWiki into the pleme-io fleet: reads the target repo's typescape IR + zoekt hits as context, invokes OpenWiki unmodified as a subprocess, routes the result through the fleet's doc/compliance layers. Never forks OpenWiki."
+homepage = "https://github.com/pleme-io/ponte"
+repository = "https://github.com/pleme-io/ponte"
+license = "MIT"
+authors = ["pleme-io"]
+
+[lib]
+name = "ponte"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ponte"
+path = "src/main.rs"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+module_name_repetitions = "allow"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive", "env"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "process", "fs", "time", "sync"] }
+blake3 = "1"
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+async-trait = "0.1"
+thiserror = "2"
+shigoto-types = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
+shigoto-dag = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
+shigoto-scheduler = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
+shigoto-emit = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
+shigoto-retry = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
+zoekt-mcp = { git = "https://github.com/pleme-io/zoekt-mcp", rev = "ff72daaced6e00945625ed3583419490e61af65e" }
+
+[dev-dependencies]
+tempfile = "3"
+pretty_assertions = "1"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "z"
+strip = true
