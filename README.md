@@ -31,6 +31,10 @@ Every transition is recorded to `~/.ponte/audit/<repo-slug>.jsonl`.
 
 ```bash
 ponte --repo /path/to/target-repo --openwiki-bin /path/to/openwiki
+
+# or, using the flake-packaged OpenWiki directly:
+PONTE_OPENWIKI_BIN="$(nix build .#openwiki --no-link --print-out-paths)/bin/openwiki" \
+  ponte --repo /path/to/target-repo
 ```
 
 ## Building
@@ -39,16 +43,24 @@ ponte --repo /path/to/target-repo --openwiki-bin /path/to/openwiki
 nix run .#ponte -- --help
 ```
 
-## Known gap: OpenWiki packaging
+## OpenWiki packaging
 
-Phase 0 added `mkNpmTool` to `substrate` (wraps `buildNpmPackage`) to
-package OpenWiki as a Nix derivation — but OpenWiki is actually a
-**pnpm workspace** (`pnpm-lock.yaml` + `pnpm-workspace.yaml`, no
-`package-lock.json`), discovered only once a real build was attempted.
-`mkNpmTool` is still correct for npm-lockfile tools; it just isn't the
-right builder for OpenWiki specifically. Until a pnpm-aware substrate
-builder lands, point `--openwiki-bin` at an OpenWiki you've installed
-yourself (`pnpm install -g openwiki` or equivalent).
+OpenWiki is locked with `pnpm-lock.yaml`, not `package-lock.json` —
+`mkNpmTool` (wraps `buildNpmPackage`) can't prefetch it. `flake.nix`
+packages it via substrate's `mkPnpmTool` instead, which wraps nixpkgs'
+own native `pnpm.fetchDeps` + `pnpm.configHook` (the pnpm-native
+equivalent of `buildNpmPackage`'s hermetic fetch-then-offline-install
+shape). Verified end-to-end: `nix build .#openwiki` produces a real,
+running `openwiki --help`.
+
+One nixpkgs/pnpm gotcha `mkPnpmTool` works around: upstream projects
+that pin an exact pnpm via package.json's `packageManager` field (as
+OpenWiki does) trip pnpm 10's own self-managed-version-download the
+instant any `pnpm` command runs — which fails offline mid-build.
+`mkPnpmTool` sets `npm_config_manage_package_manager_versions=false`
+as a real env var (not a `pnpm config set`, which needs a working
+`pnpm` call to land — too late for the very first one) to close that
+gap before it can fire.
 
 ## License
 
