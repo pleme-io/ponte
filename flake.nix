@@ -1,22 +1,27 @@
 {
   description = "Bridges LangChain OpenWiki into the pleme-io fleet: reads the target repo's typescape IR + zoekt hits as context, invokes OpenWiki unmodified as a subprocess, routes the result through the fleet's doc/compliance layers.";
+
   inputs = {
-    nixpkgs = {
-      follows = "substrate/nixpkgs";
-    };
-    flake-utils = {
-      url = "github:numtide/flake-utils";
-    };
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    crate2nix.url = "github:nix-community/crate2nix";
+    flake-utils.url = "github:numtide/flake-utils";
     substrate = {
       url = "github:pleme-io/substrate";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.fenix.follows = "fenix";
+    };
+    fenix = {
+      url = "github:nix-community/fenix";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-  outputs = inputs @ { self, nixpkgs, crate2nix, flake-utils, substrate, devenv, ... }:
+
+  outputs = { self, nixpkgs, crate2nix, flake-utils, substrate, ... }:
     let
       systems = [ "aarch64-darwin" "x86_64-darwin" "x86_64-linux" "aarch64-linux" ];
 
       rustOutputs = (import "${substrate}/lib/rust-tool-release-flake.nix" {
-        inherit nixpkgs crate2nix flake-utils devenv;
+        inherit nixpkgs crate2nix flake-utils;
       }) {
         toolName = "ponte";
         src = self;
