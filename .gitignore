@@ -4,3 +4,9 @@
 .direnv/
 .envrc.local
 Cargo.lock.bak
+
+# Delta-only doctrine: the slim Cargo.gen.lock is the committed artifact.
+# substrate resolves delta > committed build-spec (mk-rust-tool-flake.nix),
+# so this regenerated sidecar is dead weight that only ever shows up as a
+# dirty tree after `gen build`.
+Cargo.build-spec.json
