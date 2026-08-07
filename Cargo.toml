@@ -1,6 +1,6 @@
 [package]
 name = "ponte"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 rust-version = "1.89.0"
 description = "Bridges LangChain OpenWiki into the pleme-io fleet: reads the target repo's typescape IR + zoekt hits as context, invokes OpenWiki unmodified as a subprocess, routes the result through the fleet's doc/compliance layers. Never forks OpenWiki."
