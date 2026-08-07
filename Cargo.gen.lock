@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "783a7e7a199aa68983d39aadb788dbf9c4fb474324dd3b3089d766528c12b2cf",
+  "cargo_lock_sha256": "83482bf6920162683443eedd557698c1b0f6017d29905cbf47979ee49a4247cd",
   "manifest_sha256": {
-    "Cargo.toml": "d34b6859a47f77ff06e11c8973587c3d0348066168b99d82307ababbe151b284"
+    "Cargo.toml": "e133ef689e8f309c4ee3595884e571a208e4b1d6a4c20020f3113efe87fa38af"
   },
   "target_resolves": {
     "base": {
-      "aho-corasick-1.1.4": {
+      "aho-corasick-1.1.5": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -314,11 +314,11 @@
           "windows-link"
         ]
       },
-      "clap-4.6.4": {
+      "clap-4.6.6": {
         "runtime_dependencies": [
           {
             "name": "clap_builder",
-            "package_key": "clap_builder-4.6.2",
+            "package_key": "clap_builder-4.6.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -350,7 +350,7 @@
           "usage"
         ]
       },
-      "clap_builder-4.6.2": {
+      "clap_builder-4.6.6": {
         "runtime_dependencies": [
           {
             "name": "anstream",
@@ -678,7 +678,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "displaydoc-0.2.6": {
+      "displaydoc-0.2.7": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -702,7 +702,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1218,7 +1218,7 @@
           "std"
         ]
       },
-      "gen-macros-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": {
+      "gen-macros-0.1.34": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -1257,11 +1257,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-platform-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": {
+      "gen-platform-0.1.34": {
         "runtime_dependencies": [
           {
             "name": "gen_macros",
-            "package_key": "gen-macros-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9",
+            "package_key": "gen-macros-0.1.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1271,7 +1271,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9",
+            "package_key": "gen-types-0.1.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1325,11 +1325,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-types-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": {
+      "gen-types-0.1.34": {
         "runtime_dependencies": [
           {
             "name": "blake3",
-            "package_key": "blake3-1.8.5",
+            "package_key": "blake3-1.8.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1567,7 +1567,7 @@
           "std"
         ]
       },
-      "http-1.4.2": {
+      "http-1.5.0": {
         "runtime_dependencies": [
           {
             "name": "bytes",
@@ -1610,7 +1610,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1646,7 +1646,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1732,7 +1732,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1827,7 +1827,7 @@
         "runtime_dependencies": [
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1860,7 +1860,7 @@
           },
           {
             "name": "rustls",
-            "package_key": "rustls-0.23.42",
+            "package_key": "rustls-0.23.43",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1962,7 +1962,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1992,7 +1992,7 @@
           },
           {
             "name": "ipnet",
-            "package_key": "ipnet-2.12.0",
+            "package_key": "ipnet-2.12.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2089,7 +2089,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.6",
+            "package_key": "displaydoc-0.2.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2164,7 +2164,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.6",
+            "package_key": "displaydoc-0.2.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2366,7 +2366,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.6",
+            "package_key": "displaydoc-0.2.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2571,7 +2571,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "ipnet-2.12.0": {
+      "ipnet-2.12.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -2644,7 +2644,7 @@
         "runtime_dependencies": [
           {
             "name": "regex_automata",
-            "package_key": "regex-automata-0.4.16",
+            "package_key": "regex-automata-0.4.18",
             "kind": "normal",
             "features": [
               "dfa-build",
@@ -2989,7 +2989,7 @@
           },
           {
             "name": "blake3",
-            "package_key": "blake3-1.8.5",
+            "package_key": "blake3-1.8.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3011,7 +3011,7 @@
           },
           {
             "name": "clap",
-            "package_key": "clap-4.6.4",
+            "package_key": "clap-4.6.6",
             "kind": "normal",
             "features": [
               "derive",
@@ -3056,7 +3056,7 @@
           },
           {
             "name": "shigoto_dag",
-            "package_key": "shigoto-dag-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-dag-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3066,7 +3066,7 @@
           },
           {
             "name": "shigoto_emit",
-            "package_key": "shigoto-emit-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-emit-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3076,7 +3076,7 @@
           },
           {
             "name": "shigoto_retry",
-            "package_key": "shigoto-retry-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-retry-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3086,7 +3086,7 @@
           },
           {
             "name": "shigoto_scheduler",
-            "package_key": "shigoto-scheduler-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-scheduler-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3096,7 +3096,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3155,7 +3155,7 @@
           },
           {
             "name": "zoekt_mcp",
-            "package_key": "zoekt-mcp-0.1.2-ff72daaced6e00945625ed3583419490e61af65e",
+            "package_key": "zoekt-mcp-0.1.8",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3355,7 +3355,7 @@
           },
           {
             "name": "rustls",
-            "package_key": "rustls-0.23.42",
+            "package_key": "rustls-0.23.43",
             "kind": "normal",
             "features": [
               "std"
@@ -3505,7 +3505,7 @@
           },
           {
             "name": "rustls",
-            "package_key": "rustls-0.23.42",
+            "package_key": "rustls-0.23.43",
             "kind": "normal",
             "features": [
               "std"
@@ -3755,7 +3755,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "regex-automata-0.4.16": {
+      "regex-automata-0.4.18": {
         "runtime_dependencies": [
           {
             "name": "regex_syntax",
@@ -3819,7 +3819,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3921,7 +3921,7 @@
           },
           {
             "name": "rustls",
-            "package_key": "rustls-0.23.42",
+            "package_key": "rustls-0.23.43",
             "kind": "normal",
             "features": [
               "std",
@@ -4180,7 +4180,7 @@
           },
           {
             "name": "schemars",
-            "package_key": "schemars-1.2.1",
+            "package_key": "schemars-1.2.2",
             "kind": "normal",
             "features": [
               "chrono04"
@@ -4335,7 +4335,7 @@
           "std"
         ]
       },
-      "rustls-0.23.42": {
+      "rustls-0.23.43": {
         "runtime_dependencies": [
           {
             "name": "once_cell",
@@ -4541,7 +4541,7 @@
           "schemars_derive"
         ]
       },
-      "schemars-1.2.1": {
+      "schemars-1.2.2": {
         "runtime_dependencies": [
           {
             "name": "chrono04",
@@ -4575,7 +4575,7 @@
           },
           {
             "name": "schemars_derive",
-            "package_key": "schemars_derive-1.2.1",
+            "package_key": "schemars_derive-1.2.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -4665,7 +4665,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "schemars_derive-1.2.1": {
+      "schemars_derive-1.2.2": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -4689,7 +4689,7 @@
           },
           {
             "name": "serde_derive_internals",
-            "package_key": "serde_derive_internals-0.29.1",
+            "package_key": "serde_derive_internals-0.30.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -4699,7 +4699,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -4834,6 +4834,47 @@
           {
             "name": "syn",
             "package_key": "syn-2.0.119",
+            "kind": "normal",
+            "features": [
+              "clone-impls",
+              "derive",
+              "parsing",
+              "printing"
+            ],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": []
+      },
+      "serde_derive_internals-0.30.0": {
+        "runtime_dependencies": [
+          {
+            "name": "proc_macro2",
+            "package_key": "proc-macro2-1.0.107",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "quote",
+            "package_key": "quote-1.0.47",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": false,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "syn",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [
               "clone-impls",
@@ -5057,7 +5098,7 @@
           "tilde"
         ]
       },
-      "shigoto-budget-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-budget-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "serde",
@@ -5073,7 +5114,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5095,7 +5136,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-dag-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-dag-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "petgraph",
@@ -5121,7 +5162,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5143,7 +5184,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-emit-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-emit-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "async_trait",
@@ -5179,7 +5220,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5201,11 +5242,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-gate-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-gate-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "shigoto_dag",
-            "package_key": "shigoto-dag-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-dag-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5215,7 +5256,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5227,7 +5268,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-retry-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-retry-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "serde",
@@ -5243,7 +5284,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5255,7 +5296,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-scheduler-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-scheduler-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -5290,8 +5331,30 @@
             "tree": "target"
           },
           {
+            "name": "serde",
+            "package_key": "serde-1.0.229",
+            "kind": "normal",
+            "features": [
+              "derive"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "serde_json",
+            "package_key": "serde_json-1.0.151",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
             "name": "shigoto_budget",
-            "package_key": "shigoto-budget-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-budget-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5301,7 +5364,7 @@
           },
           {
             "name": "shigoto_dag",
-            "package_key": "shigoto-dag-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-dag-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5311,7 +5374,7 @@
           },
           {
             "name": "shigoto_emit",
-            "package_key": "shigoto-emit-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-emit-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5321,7 +5384,7 @@
           },
           {
             "name": "shigoto_gate",
-            "package_key": "shigoto-gate-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-gate-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5331,7 +5394,7 @@
           },
           {
             "name": "shigoto_retry",
-            "package_key": "shigoto-retry-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-retry-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5341,7 +5404,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513",
+            "package_key": "shigoto-types-0.1.14",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5388,7 +5451,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+      "shigoto-types-0.1.14": {
         "runtime_dependencies": [
           {
             "name": "async_trait",
@@ -5402,7 +5465,7 @@
           },
           {
             "name": "blake3",
-            "package_key": "blake3-1.8.5",
+            "package_key": "blake3-1.8.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5424,7 +5487,7 @@
           },
           {
             "name": "gen_platform",
-            "package_key": "gen-platform-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9",
+            "package_key": "gen-platform-0.1.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5434,7 +5497,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9",
+            "package_key": "gen-types-0.1.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5500,7 +5563,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shikumi-0.1.412-0153d97737bca0fa8fca9178f986b3b84f98ba83": {
+      "shikumi-0.1.496": {
         "runtime_dependencies": [
           {
             "name": "arc_swap",
@@ -5524,7 +5587,7 @@
           },
           {
             "name": "clap",
-            "package_key": "clap-4.6.4",
+            "package_key": "clap-4.6.6",
             "kind": "normal",
             "features": [
               "derive"
@@ -5550,7 +5613,7 @@
           },
           {
             "name": "gen_platform",
-            "package_key": "gen-platform-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9",
+            "package_key": "gen-platform-0.1.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5560,7 +5623,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9",
+            "package_key": "gen-types-0.1.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5583,7 +5646,7 @@
             "package_key": "notify-8.2.0",
             "kind": "normal",
             "features": [
-              "macos_kqueue"
+              "macos_fsevent"
             ],
             "uses_default_features": false,
             "optional": false,
@@ -6019,7 +6082,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "time-0.3.54": {
+      "time-0.3.55": {
         "runtime_dependencies": [
           {
             "name": "deranged",
@@ -6108,7 +6171,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.6",
+            "package_key": "displaydoc-0.2.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -6266,7 +6329,7 @@
           },
           {
             "name": "tokio_macros",
-            "package_key": "tokio-macros-2.7.1",
+            "package_key": "tokio-macros-2.7.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -6300,7 +6363,7 @@
           "windows-sys"
         ]
       },
-      "tokio-macros-2.7.1": {
+      "tokio-macros-2.7.2": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -6324,7 +6387,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [
               "full"
@@ -6342,7 +6405,7 @@
         "runtime_dependencies": [
           {
             "name": "rustls",
-            "package_key": "rustls-0.23.42",
+            "package_key": "rustls-0.23.43",
             "kind": "normal",
             "features": [
               "std"
@@ -6719,7 +6782,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.2",
+            "package_key": "http-1.5.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -6880,7 +6943,7 @@
           },
           {
             "name": "time",
-            "package_key": "time-0.3.54",
+            "package_key": "time-0.3.55",
             "kind": "normal",
             "features": [
               "formatting",
@@ -7045,7 +7108,7 @@
           },
           {
             "name": "regex_automata",
-            "package_key": "regex-automata-0.4.16",
+            "package_key": "regex-automata-0.4.18",
             "kind": "normal",
             "features": [
               "std"
@@ -7476,7 +7539,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.6",
+            "package_key": "displaydoc-0.2.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -7595,7 +7658,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "zoekt-mcp-0.1.2-ff72daaced6e00945625ed3583419490e61af65e": {
+      "zoekt-mcp-0.1.8": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -7619,7 +7682,7 @@
           },
           {
             "name": "clap",
-            "package_key": "clap-4.6.4",
+            "package_key": "clap-4.6.6",
             "kind": "normal",
             "features": [
               "derive"
@@ -7709,7 +7772,7 @@
           },
           {
             "name": "shikumi",
-            "package_key": "shikumi-0.1.412-0153d97737bca0fa8fca9178f986b3b84f98ba83",
+            "package_key": "shikumi-0.1.496",
             "kind": "normal",
             "features": [
               "cli"
@@ -7771,7 +7834,7 @@
     "targets": {
       "aarch64-apple-darwin": {
         "overrides": {
-          "blake3-1.8.5": {
+          "blake3-1.8.6": {
             "runtime_dependencies": [
               {
                 "name": "arrayref",
@@ -7867,6 +7930,22 @@
               "link"
             ]
           },
+          "fsevent-sys-4.1.0": {
+            "runtime_dependencies": [
+              {
+                "name": "libc",
+                "package_key": "libc-0.2.189",
+                "kind": "normal",
+                "features": [],
+                "uses_default_features": true,
+                "optional": false,
+                "target": null,
+                "tree": "target"
+              }
+            ],
+            "build_dependencies": [],
+            "features": []
+          },
           "iana-time-zone-0.1.65": {
             "runtime_dependencies": [
               {
@@ -7885,58 +7964,6 @@
               "fallback"
             ]
           },
-          "kqueue-1.2.0": {
-            "runtime_dependencies": [
-              {
-                "name": "kqueue_sys",
-                "package_key": "kqueue-sys-1.1.2",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
-              {
-                "name": "libc",
-                "package_key": "libc-0.2.189",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              }
-            ],
-            "build_dependencies": [],
-            "features": []
-          },
-          "kqueue-sys-1.1.2": {
-            "runtime_dependencies": [
-              {
-                "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": false,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
-              {
-                "name": "libc",
-                "package_key": "libc-0.2.189",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              }
-            ],
-            "build_dependencies": [],
-            "features": []
-          },
           "notify-8.2.0": {
             "runtime_dependencies": [
               {
@@ -7950,18 +7977,8 @@
                 "tree": "target"
               },
               {
-                "name": "kqueue",
-                "package_key": "kqueue-1.2.0",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": "cfg(any(target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\", target_os = \"dragonflybsd\", target_os = \"ios\"))",
-                "tree": "target"
-              },
-              {
-                "name": "kqueue",
-                "package_key": "kqueue-1.2.0",
+                "name": "fsevent_sys",
+                "package_key": "fsevent-sys-4.1.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -7990,42 +8007,6 @@
                 "tree": "target"
               },
               {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": false,
-                "target": "cfg(any(target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\", target_os = \"dragonflybsd\", target_os = \"ios\"))",
-                "tree": "target"
-              },
-              {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": false,
-                "target": "cfg(any(target_os = \"linux\", target_os = \"android\"))",
-                "tree": "target"
-              },
-              {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "notify_types",
                 "package_key": "notify-types-2.1.0",
                 "kind": "normal",
@@ -8048,9 +8029,8 @@
             ],
             "build_dependencies": [],
             "features": [
-              "kqueue",
-              "macos_kqueue",
-              "mio"
+              "fsevent-sys",
+              "macos_fsevent"
             ]
           },
           "ring-0.17.14": {
@@ -8200,7 +8180,7 @@
       },
       "aarch64-unknown-linux-gnu": {
         "overrides": {
-          "blake3-1.8.5": {
+          "blake3-1.8.6": {
             "runtime_dependencies": [
               {
                 "name": "arrayref",
@@ -8416,18 +8396,6 @@
                 "tree": "target"
               },
               {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "notify_types",
                 "package_key": "notify-types-2.1.0",
                 "kind": "normal",
@@ -8450,9 +8418,8 @@
             ],
             "build_dependencies": [],
             "features": [
-              "kqueue",
-              "macos_kqueue",
-              "mio"
+              "fsevent-sys",
+              "macos_fsevent"
             ]
           },
           "ring-0.17.14": {
@@ -8633,7 +8600,7 @@
       },
       "aarch64-unknown-linux-musl": {
         "overrides": {
-          "blake3-1.8.5": {
+          "blake3-1.8.6": {
             "runtime_dependencies": [
               {
                 "name": "arrayref",
@@ -8849,18 +8816,6 @@
                 "tree": "target"
               },
               {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "notify_types",
                 "package_key": "notify-types-2.1.0",
                 "kind": "normal",
@@ -8883,9 +8838,8 @@
             ],
             "build_dependencies": [],
             "features": [
-              "kqueue",
-              "macos_kqueue",
-              "mio"
+              "fsevent-sys",
+              "macos_fsevent"
             ]
           },
           "ring-0.17.14": {
@@ -9066,7 +9020,7 @@
       },
       "x86_64-apple-darwin": {
         "overrides": {
-          "blake3-1.8.5": {
+          "blake3-1.8.6": {
             "runtime_dependencies": [
               {
                 "name": "arrayref",
@@ -9187,6 +9141,22 @@
             "build_dependencies": [],
             "features": []
           },
+          "fsevent-sys-4.1.0": {
+            "runtime_dependencies": [
+              {
+                "name": "libc",
+                "package_key": "libc-0.2.189",
+                "kind": "normal",
+                "features": [],
+                "uses_default_features": true,
+                "optional": false,
+                "target": null,
+                "tree": "target"
+              }
+            ],
+            "build_dependencies": [],
+            "features": []
+          },
           "iana-time-zone-0.1.65": {
             "runtime_dependencies": [
               {
@@ -9205,58 +9175,6 @@
               "fallback"
             ]
           },
-          "kqueue-1.2.0": {
-            "runtime_dependencies": [
-              {
-                "name": "kqueue_sys",
-                "package_key": "kqueue-sys-1.1.2",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
-              {
-                "name": "libc",
-                "package_key": "libc-0.2.189",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              }
-            ],
-            "build_dependencies": [],
-            "features": []
-          },
-          "kqueue-sys-1.1.2": {
-            "runtime_dependencies": [
-              {
-                "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": false,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
-              {
-                "name": "libc",
-                "package_key": "libc-0.2.189",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              }
-            ],
-            "build_dependencies": [],
-            "features": []
-          },
           "notify-8.2.0": {
             "runtime_dependencies": [
               {
@@ -9270,18 +9188,8 @@
                 "tree": "target"
               },
               {
-                "name": "kqueue",
-                "package_key": "kqueue-1.2.0",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": "cfg(any(target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\", target_os = \"dragonflybsd\", target_os = \"ios\"))",
-                "tree": "target"
-              },
-              {
-                "name": "kqueue",
-                "package_key": "kqueue-1.2.0",
+                "name": "fsevent_sys",
+                "package_key": "fsevent-sys-4.1.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -9310,42 +9218,6 @@
                 "tree": "target"
               },
               {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": false,
-                "target": "cfg(any(target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\", target_os = \"dragonflybsd\", target_os = \"ios\"))",
-                "tree": "target"
-              },
-              {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": false,
-                "target": "cfg(any(target_os = \"linux\", target_os = \"android\"))",
-                "tree": "target"
-              },
-              {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "notify_types",
                 "package_key": "notify-types-2.1.0",
                 "kind": "normal",
@@ -9368,9 +9240,8 @@
             ],
             "build_dependencies": [],
             "features": [
-              "kqueue",
-              "macos_kqueue",
-              "mio"
+              "fsevent-sys",
+              "macos_fsevent"
             ]
           },
           "ring-0.17.14": {
@@ -9500,7 +9371,7 @@
       },
       "x86_64-unknown-linux-gnu": {
         "overrides": {
-          "blake3-1.8.5": {
+          "blake3-1.8.6": {
             "runtime_dependencies": [
               {
                 "name": "arrayref",
@@ -9741,18 +9612,6 @@
                 "tree": "target"
               },
               {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "notify_types",
                 "package_key": "notify-types-2.1.0",
                 "kind": "normal",
@@ -9775,9 +9634,8 @@
             ],
             "build_dependencies": [],
             "features": [
-              "kqueue",
-              "macos_kqueue",
-              "mio"
+              "fsevent-sys",
+              "macos_fsevent"
             ]
           },
           "ring-0.17.14": {
@@ -9938,7 +9796,7 @@
       },
       "x86_64-unknown-linux-musl": {
         "overrides": {
-          "blake3-1.8.5": {
+          "blake3-1.8.6": {
             "runtime_dependencies": [
               {
                 "name": "arrayref",
@@ -10179,18 +10037,6 @@
                 "tree": "target"
               },
               {
-                "name": "mio",
-                "package_key": "mio-1.2.2",
-                "kind": "normal",
-                "features": [
-                  "os-ext"
-                ],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "notify_types",
                 "package_key": "notify-types-2.1.0",
                 "kind": "normal",
@@ -10213,9 +10059,8 @@
             ],
             "build_dependencies": [],
             "features": [
-              "kqueue",
-              "macos_kqueue",
-              "mio"
+              "fsevent-sys",
+              "macos_fsevent"
             ]
           },
           "ring-0.17.14": {
@@ -10377,7 +10222,7 @@
     }
   },
   "per_crate": {
-    "aho-corasick-1.1.4": {
+    "aho-corasick-1.1.5": {
       "edition": "2021"
     },
     "anstream-1.0.0": {
@@ -10421,7 +10266,7 @@
     "bitflags-2.13.1": {
       "edition": "2021"
     },
-    "blake3-1.8.5": {
+    "blake3-1.8.6": {
       "edition": "2024",
       "build_script": "build.rs"
     },
@@ -10443,7 +10288,7 @@
     "chrono-0.4.45": {
       "edition": "2021"
     },
-    "clap-4.6.4": {
+    "clap-4.6.6": {
       "edition": "2024",
       "binaries": [
         {
@@ -10452,7 +10297,7 @@
         }
       ]
     },
-    "clap_builder-4.6.2": {
+    "clap_builder-4.6.6": {
       "edition": "2024"
     },
     "clap_derive-4.6.4": {
@@ -10503,7 +10348,7 @@
     "dirs-sys-0.5.0": {
       "edition": "2015"
     },
-    "displaydoc-0.2.6": {
+    "displaydoc-0.2.7": {
       "edition": "2021",
       "proc_macro": true
     },
@@ -10530,6 +10375,9 @@
       "edition": "2015"
     },
     "form_urlencoded-1.2.2": {
+      "edition": "2018"
+    },
+    "fsevent-sys-4.1.0": {
       "edition": "2018"
     },
     "futures-0.3.33": {
@@ -10560,14 +10408,14 @@
     "futures-util-0.3.33": {
       "edition": "2018"
     },
-    "gen-macros-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": {
+    "gen-macros-0.1.34": {
       "edition": "2024",
       "proc_macro": true
     },
-    "gen-platform-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": {
+    "gen-platform-0.1.34": {
       "edition": "2024"
     },
-    "gen-types-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": {
+    "gen-types-0.1.34": {
       "edition": "2024"
     },
     "getrandom-0.2.17": {
@@ -10586,7 +10434,7 @@
     "hex-0.4.3": {
       "edition": "2018"
     },
-    "http-1.4.2": {
+    "http-1.5.0": {
       "edition": "2021"
     },
     "http-body-1.1.0": {
@@ -10659,19 +10507,13 @@
     "inventory-0.3.24": {
       "edition": "2021"
     },
-    "ipnet-2.12.0": {
+    "ipnet-2.12.1": {
       "edition": "2018"
     },
     "is_terminal_polyfill-1.70.2": {
       "edition": "2021"
     },
     "itoa-1.0.18": {
-      "edition": "2021"
-    },
-    "kqueue-1.2.0": {
-      "edition": "2021"
-    },
-    "kqueue-sys-1.1.2": {
       "edition": "2021"
     },
     "lazy_static-1.5.0": {
@@ -10816,7 +10658,7 @@
       "edition": "2021",
       "proc_macro": true
     },
-    "regex-automata-0.4.16": {
+    "regex-automata-0.4.18": {
       "edition": "2021"
     },
     "regex-syntax-0.8.11": {
@@ -10845,7 +10687,7 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "rustls-0.23.42": {
+    "rustls-0.23.43": {
       "edition": "2021",
       "build_script": "build.rs"
     },
@@ -10874,14 +10716,14 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "schemars-1.2.1": {
+    "schemars-1.2.2": {
       "edition": "2021"
     },
     "schemars_derive-0.8.22": {
       "edition": "2021",
       "proc_macro": true
     },
-    "schemars_derive-1.2.1": {
+    "schemars_derive-1.2.2": {
       "edition": "2021",
       "proc_macro": true
     },
@@ -10907,6 +10749,13 @@
         "path": "lib.rs"
       }
     },
+    "serde_derive_internals-0.30.0": {
+      "edition": "2021",
+      "lib_target": {
+        "name": "serde_derive_internals",
+        "path": "lib.rs"
+      }
+    },
     "serde_json-1.0.151": {
       "edition": "2021",
       "build_script": "build.rs"
@@ -10926,28 +10775,28 @@
     "shellexpand-3.1.2": {
       "edition": "2018"
     },
-    "shigoto-budget-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-budget-0.1.14": {
       "edition": "2024"
     },
-    "shigoto-dag-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-dag-0.1.14": {
       "edition": "2024"
     },
-    "shigoto-emit-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-emit-0.1.14": {
       "edition": "2024"
     },
-    "shigoto-gate-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-gate-0.1.14": {
       "edition": "2024"
     },
-    "shigoto-retry-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-retry-0.1.14": {
       "edition": "2024"
     },
-    "shigoto-scheduler-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-scheduler-0.1.14": {
       "edition": "2024"
     },
-    "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": {
+    "shigoto-types-0.1.14": {
       "edition": "2024"
     },
-    "shikumi-0.1.412-0153d97737bca0fa8fca9178f986b3b84f98ba83": {
+    "shikumi-0.1.496": {
       "edition": "2024"
     },
     "shlex-2.0.1": {
@@ -11003,7 +10852,7 @@
     "thread_local-1.1.10": {
       "edition": "2021"
     },
-    "time-0.3.54": {
+    "time-0.3.55": {
       "edition": "2024"
     },
     "time-core-0.1.9": {
@@ -11025,7 +10874,7 @@
     "tokio-1.53.1": {
       "edition": "2021"
     },
-    "tokio-macros-2.7.1": {
+    "tokio-macros-2.7.2": {
       "edition": "2021",
       "proc_macro": true
     },
@@ -11165,7 +11014,7 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "zoekt-mcp-0.1.2-ff72daaced6e00945625ed3583419490e61af65e": {
+    "zoekt-mcp-0.1.8": {
       "edition": "2021",
       "binaries": [
         {
@@ -11175,19 +11024,6 @@
       ]
     }
   },
-  "git_nar_sha256": {
-    "gen-macros-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": "sha256-j2mej+GpGvW8qv9z3R39TuZqjfLoIL/jH3HEacxD8Ps=",
-    "gen-platform-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": "sha256-j2mej+GpGvW8qv9z3R39TuZqjfLoIL/jH3HEacxD8Ps=",
-    "gen-types-0.1.26-0f4db0c195b72239016b96ea306d6a32d26550f9": "sha256-j2mej+GpGvW8qv9z3R39TuZqjfLoIL/jH3HEacxD8Ps=",
-    "shigoto-budget-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shigoto-dag-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shigoto-emit-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shigoto-gate-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shigoto-retry-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shigoto-scheduler-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shigoto-types-0.1.10-131d52d578107db3c48acd76aa6171c3f2810513": "sha256-B21wUElP/JCE1/a8G/F/1lfe1W1Kr2nWkRLYDZycdLA=",
-    "shikumi-0.1.412-0153d97737bca0fa8fca9178f986b3b84f98ba83": "sha256-hRnHZa99PX+bf1FHqBObX/4CGDQaoSZHu21hZOW+das=",
-    "zoekt-mcp-0.1.2-ff72daaced6e00945625ed3583419490e61af65e": "sha256-5FfUT/Vt1/ia8Rj/a2Q9WurDMeB4ghlk4n6kjKWzTnw="
-  },
+  "git_nar_sha256": {},
   "flake_metadata": {}
 }

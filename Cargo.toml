@@ -36,12 +36,12 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 async-trait = "0.1"
 thiserror = "2"
-shigoto-types = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
-shigoto-dag = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
-shigoto-scheduler = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
-shigoto-emit = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
-shigoto-retry = { git = "https://github.com/pleme-io/shigoto", rev = "131d52d578107db3c48acd76aa6171c3f2810513" }
-zoekt-mcp = { git = "https://github.com/pleme-io/zoekt-mcp", rev = "ff72daaced6e00945625ed3583419490e61af65e" }
+shigoto-types = "0.1"
+shigoto-dag = "0.1"
+shigoto-scheduler = "0.1"
+shigoto-emit = "0.1"
+shigoto-retry = "0.1"
+zoekt-mcp = "0.1"
 
 [dev-dependencies]
 tempfile = "3"
