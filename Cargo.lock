@@ -1195,7 +1195,7 @@ checksum = "a89322df9ebe1c1578d689c92318e070967d1042b512afbe49518723f4e6d5cd"
 
 [[package]]
 name = "ponte"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1769,9 +1769,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-budget"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0879ba236761229b5d86423d1ce4f5aeda919f3ae4d9b0a0edce8e33c01a9a72"
+checksum = "3d544704c2255b538cc6c51d3b154ed629aae3b2b768f5c2da19b16047552717"
 dependencies = [
  "serde",
  "shigoto-types",
@@ -1780,9 +1780,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-dag"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a49a74ced271b211a0cf4e6057d5d8fc237e4bea42c7d7f46bb0d64e7c6944cd"
+checksum = "f46ab50457b5dc68ee69723961d434812c798f89f85f84836a8b790f7986229e"
 dependencies = [
  "petgraph",
  "serde",
@@ -1792,9 +1792,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-emit"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a6084936df077ae700edd6cc7fbb8dd2c14a5b71a9c00546e4fb8ee89b9e83c1"
+checksum = "eb3463f28278ff29c63cd9f7c6e4585de54e80b8ccb54e16bd9c8f8b663c0e30"
 dependencies = [
  "async-trait",
  "serde",
@@ -1805,9 +1805,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-gate"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "be33d80f431a977af29b034b252b0612187a2a3d473f971a02c4aef7d94c9241"
+checksum = "f65259932439aebefb32851ead197539b22326b29e08119eb6103c28f6a2d805"
 dependencies = [
  "shigoto-dag",
  "shigoto-types",
@@ -1815,9 +1815,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-retry"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "556f3a3e1b65d4ee5ea85c85581acd2116d40b46d41819fe4882845be6d64523"
+checksum = "46b0cb9fec66dcf77ede7796c4c5ab5b9b0d53f1e65515d102d16388b0de19a2"
 dependencies = [
  "serde",
  "shigoto-types",
@@ -1825,9 +1825,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-scheduler"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5bc0cacd2724f1ff7e78e8a46506569af7ec995d4f3b56a634f22ec33ec467b5"
+checksum = "c4b3266b16d4fdec5ade61120aec620b73794d6bd4836fc5d72fe0e293caca47"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1847,9 +1847,9 @@ dependencies = [
 
 [[package]]
 name = "shigoto-types"
-version = "0.1.16"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "04983ad27495c98da83935f168d3a3afea926ef8b638660f6795bcd0c348ef1c"
+checksum = "78367f7c0d2a625b65358266b81798918c1226b125a35888f7e575311b2af39c"
 dependencies = [
  "async-trait",
  "blake3",

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "9c9dc633b89bed3e04ab9838723dd411ab926a7bd8a0dafad9f615115bbf45d9",
+  "cargo_lock_sha256": "5976a54de08cf8635e030ad43d4e68deb205962b1edd509a03d0325a3825e25f",
   "manifest_sha256": {
-    "Cargo.toml": "6baa68b46a9cb199333c14f32aefb758632a47d76e97bf361cca2b8be58574bb"
+    "Cargo.toml": "fee8d8094c71b51b3c3bbac950e8e711a0953f7e3e8c638b99c28d4ae0aa5d53"
   },
   "target_resolves": {
     "base": {
@@ -2973,7 +2973,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "ponte-0.1.3": {
+      "ponte-0.1.4": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -3064,7 +3064,7 @@
           },
           {
             "name": "shigoto_dag",
-            "package_key": "shigoto-dag-0.1.16",
+            "package_key": "shigoto-dag-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3074,7 +3074,7 @@
           },
           {
             "name": "shigoto_emit",
-            "package_key": "shigoto-emit-0.1.16",
+            "package_key": "shigoto-emit-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3084,7 +3084,7 @@
           },
           {
             "name": "shigoto_retry",
-            "package_key": "shigoto-retry-0.1.16",
+            "package_key": "shigoto-retry-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3094,7 +3094,7 @@
           },
           {
             "name": "shigoto_scheduler",
-            "package_key": "shigoto-scheduler-0.1.16",
+            "package_key": "shigoto-scheduler-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3104,7 +3104,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5162,7 +5162,7 @@
           "tilde"
         ]
       },
-      "shigoto-budget-0.1.16": {
+      "shigoto-budget-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "serde",
@@ -5178,7 +5178,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5200,7 +5200,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-dag-0.1.16": {
+      "shigoto-dag-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "petgraph",
@@ -5226,7 +5226,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5248,7 +5248,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-emit-0.1.16": {
+      "shigoto-emit-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "async_trait",
@@ -5284,7 +5284,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5306,11 +5306,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-gate-0.1.16": {
+      "shigoto-gate-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "shigoto_dag",
-            "package_key": "shigoto-dag-0.1.16",
+            "package_key": "shigoto-dag-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5320,7 +5320,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5332,7 +5332,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-retry-0.1.16": {
+      "shigoto-retry-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "serde",
@@ -5348,7 +5348,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5360,7 +5360,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-scheduler-0.1.16": {
+      "shigoto-scheduler-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -5418,7 +5418,7 @@
           },
           {
             "name": "shigoto_budget",
-            "package_key": "shigoto-budget-0.1.16",
+            "package_key": "shigoto-budget-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5428,7 +5428,7 @@
           },
           {
             "name": "shigoto_dag",
-            "package_key": "shigoto-dag-0.1.16",
+            "package_key": "shigoto-dag-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5438,7 +5438,7 @@
           },
           {
             "name": "shigoto_emit",
-            "package_key": "shigoto-emit-0.1.16",
+            "package_key": "shigoto-emit-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5448,7 +5448,7 @@
           },
           {
             "name": "shigoto_gate",
-            "package_key": "shigoto-gate-0.1.16",
+            "package_key": "shigoto-gate-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5458,7 +5458,7 @@
           },
           {
             "name": "shigoto_retry",
-            "package_key": "shigoto-retry-0.1.16",
+            "package_key": "shigoto-retry-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5468,7 +5468,7 @@
           },
           {
             "name": "shigoto_types",
-            "package_key": "shigoto-types-0.1.16",
+            "package_key": "shigoto-types-0.1.17",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -5515,7 +5515,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shigoto-types-0.1.16": {
+      "shigoto-types-0.1.17": {
         "runtime_dependencies": [
           {
             "name": "async_trait",
@@ -10776,7 +10776,7 @@
     "pin-project-lite-0.2.17": {
       "edition": "2018"
     },
-    "ponte-0.1.3": {
+    "ponte-0.1.4": {
       "edition": "2024",
       "lib_target": {
         "name": "ponte",
@@ -10958,25 +10958,25 @@
     "shellexpand-3.1.2": {
       "edition": "2018"
     },
-    "shigoto-budget-0.1.16": {
+    "shigoto-budget-0.1.17": {
       "edition": "2024"
     },
-    "shigoto-dag-0.1.16": {
+    "shigoto-dag-0.1.17": {
       "edition": "2024"
     },
-    "shigoto-emit-0.1.16": {
+    "shigoto-emit-0.1.17": {
       "edition": "2024"
     },
-    "shigoto-gate-0.1.16": {
+    "shigoto-gate-0.1.17": {
       "edition": "2024"
     },
-    "shigoto-retry-0.1.16": {
+    "shigoto-retry-0.1.17": {
       "edition": "2024"
     },
-    "shigoto-scheduler-0.1.16": {
+    "shigoto-scheduler-0.1.17": {
       "edition": "2024"
     },
-    "shigoto-types-0.1.16": {
+    "shigoto-types-0.1.17": {
       "edition": "2024"
     },
     "shikumi-0.1.1084": {
