@@ -35,7 +35,10 @@ pub enum OpenWikiOutcome {
     /// give us for free (unlike `git pull`, "run an LLM agent again"
     /// has no native no-op floor).
     Skipped,
-    Ran { mode: RunMode, stdout_tail: String },
+    Ran {
+        mode: RunMode,
+        stdout_tail: String,
+    },
 }
 
 #[derive(Debug, thiserror::Error)]
@@ -189,7 +192,11 @@ mod tests {
         })))
     }
 
-    fn job(repo_path: PathBuf, binary: &str, upstream: Arc<AsyncMutex<Option<ContextOutcome>>>) -> InvokeOpenWikiJob {
+    fn job(
+        repo_path: PathBuf,
+        binary: &str,
+        upstream: Arc<AsyncMutex<Option<ContextOutcome>>>,
+    ) -> InvokeOpenWikiJob {
         InvokeOpenWikiJob {
             repo_path,
             repo_name: "test".into(),
@@ -214,7 +221,11 @@ mod tests {
 
     #[tokio::test]
     async fn errors_when_upstream_outcome_missing() {
-        let j = job(PathBuf::from("."), "/does/not/matter", Arc::new(AsyncMutex::new(None)));
+        let j = job(
+            PathBuf::from("."),
+            "/does/not/matter",
+            Arc::new(AsyncMutex::new(None)),
+        );
         let err = j.execute_body().await.unwrap_err();
         assert!(matches!(err, OpenWikiError::MissingUpstreamOutcome));
     }

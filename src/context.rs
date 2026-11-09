@@ -236,7 +236,11 @@ mod tests {
     #[tokio::test]
     async fn reads_typescape_yaml_when_present() {
         let dir = tempfile::tempdir().unwrap();
-        std::fs::write(dir.path().join(".typescape.yaml"), "vocabulary: [foo, bar]\n").unwrap();
+        std::fs::write(
+            dir.path().join(".typescape.yaml"),
+            "vocabulary: [foo, bar]\n",
+        )
+        .unwrap();
 
         let outcome = job(dir.path(), Arc::new(AsyncMutex::new(None)))
             .execute_body()
@@ -267,7 +271,11 @@ mod tests {
         let second = mk().execute_body().await.unwrap();
         assert!(!second.changed);
 
-        std::fs::write(dir.path().join(".typescape.yaml"), "vocabulary: [changed]\n").unwrap();
+        std::fs::write(
+            dir.path().join(".typescape.yaml"),
+            "vocabulary: [changed]\n",
+        )
+        .unwrap();
         let third = mk().execute_body().await.unwrap();
         assert!(third.changed, "editing .typescape.yaml must flip changed");
         assert_ne!(first.content_hash, third.content_hash);
